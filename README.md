@@ -1,29 +1,20 @@
-# README #
+## Booking app
+Is a **React.js Web App** with which you can make bookings, search and filter out rental properties / hotels.
 
-This README would normally document whatever steps are necessary to get your application up and running.
+<img src="https://i.ibb.co/9G4rMDH/Screenshot-from-2022-06-29-15-20-03.png" alt="Booking app">
 
-### What is this repository for? ###
+## Main functionalities
+Homepage displays lists of components, and a big input bar. Selecting the location, picking a date, and other parameters necessary for booking.
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+Hotels page is what comes after hitting the search button. Currently it is static as the api hasn't been implemented yet. The page will serve results from the search and will allow adjusting the parameters.
 
-### How do I get set up? ###
+Single Hotel page displays all data from one property.
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+In the main directory, you can run
+### `npm start`
+This runs the app in the development mode on http://localhost:3000/
 
-### Contribution guidelines ###
 
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+## In Future updates
+Implementing API to fetch live data and remove static components.
+Implement sufficient backend to perform searches and filtering of properties.
